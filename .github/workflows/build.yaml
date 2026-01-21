@@ -1,13 +1,13 @@
 name: Run Laravel Pint and Build PHP
- 
+
 on:
   push:
   pull_request_target:
   workflow_dispatch:
- 
+
 permissions:
   contents: write
- 
+
 jobs:
   build:
     # TEST - uses: Middle-Earth-Gitops/build-laravel-app-image/.github/workflows/build-deploy-app.yml@test
